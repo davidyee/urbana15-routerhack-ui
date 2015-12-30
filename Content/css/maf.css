@@ -34,12 +34,16 @@ body {
 }
 
 #footer {
-    position: fixed;
-    bottom: 0px;
+    position: relative;
     width: 100%;
     background: #0D142E none repeat scroll 0% 0%;
     border-top: 1px solid #D1D2D1;
     margin: 2em 0px 0px;
     color: #F8F8F8;
     padding: 0px 0px 1em;
+}
+
+#wrapper {
+    height: auto;
+    min-height: 100%;
 }
